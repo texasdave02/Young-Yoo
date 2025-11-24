@@ -1,0 +1,6 @@
+fruits = ["banana", "apple", "mango"]
+
+for fruit in fruits:
+    print("Current fruit:", fruit)
+else:
+    print("Goodbye!")
