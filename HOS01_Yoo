@@ -1,0 +1,24 @@
+# Codespaces Lab — Setup Summary
+
+Purpose
+- Practice accessing and using GitHub Codespaces as a cloud development environment.
+- Become familiar with opening the assignment repository in Codespaces, using the integrated terminal, running basic commands (e.g., `npm init`), and viewing files in the explorer.
+- Prepare a development workspace for completing and submitting future assignments through GitHub.
+
+Steps performed
+1. Opened the assignment repository in GitHub Codespaces.
+2. Launched the integrated terminal inside the Codespace.
+3. Initialized a minimal Node.js project:
+    ```
+    npm init -y
+    ```
+4. Explored files and workspace in the editor explorer and terminal:
+    ```
+    ls -la
+    git status
+    ```
+5. Verified the workspace is ready for development (node modules, package.json present).
+
+Outcome
+- Confirmed ability to open and operate a Codespace, use the terminal, run basic setup commands, and inspect files in the explorer.
+- Workspace is prepared for subsequent assignment development and submission.
