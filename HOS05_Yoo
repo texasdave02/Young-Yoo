@@ -1,0 +1,16 @@
+# 1. Git 초기화 (처음이라면)
+git init
+
+# 2. 깃허브 저장소 연결
+git remote add origin https://github.com/<your-username>/CS11A-HOS06A-Submission.git
+
+# 3. 파일 업로드 준비
+unzip HOS06_YoungYoo_Submission.zip
+git add .
+
+# 4. 커밋 메시지 작성
+git commit -m "Submission for HOS06A – Young Yoo"
+
+# 5. 업로드 (main 브랜치 기준)
+git branch -M main
+git push -u origin main
